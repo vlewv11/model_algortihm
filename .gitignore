@@ -1,0 +1,68 @@
+check.py
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+*.venv
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore log files
+*.log
+*.out
+*.err
+
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build and dependency directories
+node_modules/
+build/
+dist/
+*.egg-info/
+
+# Ignore compressed files and archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.~*
+
+# Ignore database files
+*.sqlite3
+
+# Ignore testing files and coverage
+coverage/
+*.cover
+*.coverage
+.coverage.*
+# Ignore machine learning/model files
+*.h5
+*.ckpt
+*.onnx
+*.pt
+*.weights
+
